@@ -1,0 +1,90 @@
+body{
+background-color: #a8dle7;
+margin-right:  15%;
+margin-left:  15%;
+width: 70%;
+
+}
+
+.banner{
+  width: 100%;
+}
+
+body nav{
+  width: 100%;
+  background-color: #222222;
+  color: #ffffff;
+  font-family:  helvetica;
+}
+
+.topnav a{
+  color: #ffffff;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: blink;
+}
+
+.topnav a:hover{
+  background-color: #e8554e;
+  color: #ffffff;
+}
+
+.topnav .active{
+  background-color: #e8555e;
+  color: #ffffff;
+}
+
+#slideshow{
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+.slide-wrapper{
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+.slide{
+  float: left;
+  height:  510px;
+  width: 728px;
+}
+@-webkit-keyframes slide{
+ 20% {margin-left: 0px;}
+ 30% {margin-left: -728x;}
+ 50% {margin-left: -728px;}
+ 60% {margin-left: -1456px;}
+ 70% {margin-left: -1456px;}
+ 80% {margin-left: -2184px;}
+ 90% {margin-left: -2184px;}
+}
+80% {margin-left: -2184px;}
+90% {margin-left: -2184px;}
+
+
+}
+
+
+
+
+
+
+@media only screen and(max-width: 110px){
+  #slideshow{display: none;}
+}
+@ media only screen and (max-width: 600px){
+  body{width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;}
+    .topnav{width: 100%;
+      overflow: hidden;}
+      a{width: 100%;
+        display: block;
+        text-align: center;
+        background-color: #00000;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #3232323;
+      }
+
+}

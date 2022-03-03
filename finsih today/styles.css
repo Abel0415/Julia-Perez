@@ -1,0 +1,36 @@
+body{
+background-color: #a8dle7;
+margin-right:  15%;
+margin-left:  15%;
+width: 70%;
+
+}
+
+.banner{
+  width: 100%;
+}
+
+body nav{
+  width: 100%;
+  background-color: #222222;
+  color: #ffffff;
+  font-family:  helvetica;
+}
+
+.topnav a{
+  color: #ffffff;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: blink;
+}
+
+.topnav a:hover{
+  background-color: #e8554e;
+  color: #ffffff;
+}
+
+.topnav .active{
+  background-color: #e8555e;
+  color: #ffffff;
+}
+
